@@ -27,7 +27,16 @@ CREATE TABLE pedidos(
     estado_pedido VARCHAR(20)
 );
 
-INSERT INTO producombre_productos
+INSERT INTO productos (nombre, tipo, precio_unidad, cantidad) VALUES
+("Arroz", "Granos", 2000, 100),
+("Huevos", "Despensa", 300, 2000),
+("Leche", "Lacteos", 3800, 150),
+("Atun", "Enlatados", 4000, 120),
+("Pierna de cerdo", "Carnicos", 8500, 50),
+("Aceite", "Despensa", 8000, 90),
+("Queso", "Lacteos", 7800, 30),
+("Frijoles", "Granos", 4500, 95);
+
 INSERT INTO clientes (nombre, telefono)VALUES
 ("Andres Gomez", 31254786),
 ("Felipe Piedrahita", 31156478),
